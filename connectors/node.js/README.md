@@ -53,12 +53,12 @@ GO
 
 ##Running the app
 
-Copy contents of connect.js and crud.js into respectively into newly created files. Ensure you've updated the connection string with
+Copy contents of connect.js and crud.js respectively into newly created files. Ensure you've updated the connection string with
 ```js
 var config = {
   userName: 'login', // update me
   password: 'password', // update me
-  server: '127.0.0.1',
+  server: '127.0.0.1', // update me
   options: {
     database: 'SampleDB',
 	  encrypt: true //required for Azure SQL Database
