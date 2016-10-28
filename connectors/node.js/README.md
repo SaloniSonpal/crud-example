@@ -51,9 +51,9 @@ SELECT * FROM Company.Employees;
 GO
 ```
 
-##Runnung the app
+##Running the app
 
-Ensure you've updated the connection string with
+Copy contents of connect.js and crud.js into respectively into newly created files. Ensure you've updated the connection string with
 ```js
 var config = {
   userName: 'login', // update me
@@ -70,7 +70,7 @@ In order to just test your connection to database run
 node connect.js
 ```
 
-Another simple app crud.js performs inserts, updates, deletes, and selects data from the table.
+A simple app crud.js performs inserts, updates, deletes, and selects data from the table.
 ```
 node crud.js
 ```
