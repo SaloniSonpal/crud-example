@@ -1,4 +1,5 @@
 ##Description
+Perform basic SQL Server CRUD operations from Node.js using [Tedious](https://github.com/tediousjs/tedious) connector.
 
 ##Pre-requisites
 Lastest version of [Node.js](https://nodejs.org/en/download/) with the npm module.
