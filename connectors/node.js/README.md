@@ -63,6 +63,7 @@ var config = {
     database: 'SampleDB',
 	  encrypt: true //required for Azure SQL Database
   }
+}
 ```
 
 In order to just test your connection to database run
