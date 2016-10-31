@@ -10,6 +10,7 @@ var config = {
   options: {
     database: 'SampleDB',
     encrypt: true // required for Azure SQL Database
+  }
 }
 var connection = new Connection(config);
 
