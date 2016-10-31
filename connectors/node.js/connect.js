@@ -6,10 +6,10 @@ var TYPES = require('tedious').TYPES;
 var config = {
   userName: 'login', // update me
   password: 'password', // update me
+  server: '127.0.0.1', // update me
   options: {
-      database: 'SampleDB',
-	  encrypt: true //required for Azure SQL Database
-  }
+    database: 'SampleDB',
+    encrypt: true // required for Azure SQL Database
 }
 var connection = new Connection(config);
 
