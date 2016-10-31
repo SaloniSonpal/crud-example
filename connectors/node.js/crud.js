@@ -5,9 +5,12 @@ var async = require('async');
 
 // Create connection to database
 var config = {
+  userName: 'login', // update me
+  password: 'password', // update me
+  server: 'servername', // update me
   options: {
       database: 'SampleDB',
-	  encrypt: true //required for Azure SQL Database
+      encrypt: true // required for Azure SQL Database
   }
 }
 var connection = new Connection(config);
@@ -121,7 +124,6 @@ connection.on('connect', function(err) {
       } else {
         console.log("Done!");
       }
-    }
-                   )
+    })
   }
 });
